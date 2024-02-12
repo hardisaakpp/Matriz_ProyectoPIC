@@ -8,15 +8,16 @@ namespace Matriz.Logic
 {
     public abstract class Vacantes
     {
-        public Vacantes()
-        {
-            UIdvacante = Guid.NewGuid().ToString();
-        }
+        
         public string? UIdvacante { get; }
         public string? Name { get; set; }
         public TipoExperiencia Experiencia { get; set; }
         public decimal Salario { get; set; }
         public TipoModalidad Modalidad { get; set; }
+        public Vacantes()
+        {
+            UIdvacante = Guid.NewGuid().ToString();
+        }
         public abstract decimal GetValueSalaryTraineeToPay();
         public abstract decimal GetValueSalaryJuniorToPay();
         public abstract decimal GetValueSalaryInterToPay();

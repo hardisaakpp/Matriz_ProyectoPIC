@@ -1,45 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Matriz.Logic.VacantesModalidad">
-    <Position X="4.5" Y="0.5" Width="1.5" />
+    <Position X="4.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>VacantesModalidad.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Matriz.Logic.Vacantes">
-    <Position X="2.5" Y="0.5" Width="1.5" />
+    <Position X="2.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAEAAAQAAAAAEAAAEAAQAAAAAhAAAAAAAAAACAAA=</HashCode>
       <FileName>Vacantes.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Matriz.Logic.Matriz">
-    <Position X="6.5" Y="0.5" Width="1.5" />
+  <Class Name="Matriz.Logic.MatrizGauss">
+    <Position X="4.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>CAAAAAAEAAAABAAAAAgACAAAAAAAAICAAAAAgAgAAAA=</HashCode>
-      <FileName>Matriz.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Matriz.Logic.MatrizBase">
-    <Position X="8.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAACAABAAAAAAAAAAAAAAAAACAAAAAAAgAAAA=</HashCode>
-      <FileName>MatrizBase.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAQA=</HashCode>
+      <FileName>MatrizGauss.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Matriz.Logic.InversaMatriz">
-    <Position X="10.25" Y="0.5" Width="1.5" />
+    <Position X="6.25" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAEAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>InversaMatriz.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Matriz.Logic.CalculadoraMatrices">
-    <Position X="12" Y="0.5" Width="1.5" />
+    <Position X="6.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABAAEAAAAAAAAAAAAAACAAAAAAAgAAAA=</HashCode>
       <FileName>CalculadoraMatrices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matriz.Logic.Matriz">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAEAAAABAAAAAgACAAAAAAAAICAAAAAgAgAAAA=</HashCode>
+      <FileName>Matriz.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="Matriz.Logic.TipoModalidad">
